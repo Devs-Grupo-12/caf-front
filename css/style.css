@@ -1,11 +1,14 @@
 body{
     background-color: #114061;
+    padding: 0;
+    margin: 0;
+}
+.main {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto';
-
 }
 #nome{
     position: relative;
@@ -61,7 +64,7 @@ p{
     font-weight: bold;
     font-family: 'Roboto';
 }
-img{
+.banner{
     display: flex;
     height: 200px;
     width: 1480px;
@@ -72,4 +75,49 @@ a{
     display: flex;
     justify-content: flex-end;
     text-decoration: underline;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    position: fixed;
+    width: 19%;
+    height: 100vh;
+    font-size: 0.65em;
+    border-right: 20px solid #FD410C;
+}
+
+.navigation {
+    position: relative;
+    margin: 0 15%;
+    text-align: right;
+    top: 20%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+nav {
+    text-align: left;
+}
+
+br {
+    color: #fff;
+    width: 100%;
+}
+
+.nav-logo {
+    height: 240px;
+    width: 180px;
+    transform: translateX(35%);
+}
+
+.content {
+    background-color: #fff;
+    position: relative;
+    width: 80%;
+    float: right;
+    height: 100vh;
 }
