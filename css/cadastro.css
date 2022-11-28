@@ -12,10 +12,11 @@ body{
     display: flex;
     width: 100%;
     height: 100%;
-    font-family: 'Roboto';
+    font-family: 'Inter';
     font-size: 1,7em;
     background-color: #F8F8F8;
     text-align: center;
+    font-weight: bold;
 }
 
 menu{
@@ -25,7 +26,7 @@ menu{
     justify-content: space-evenly;
     align-items: center;
     font-size: 3vh;
-    height: 100%;
+    height: 800px;
     width: 15%;
     color: white;
     background-color: #114061;
@@ -176,7 +177,7 @@ input{
 input::placeholder {
     font-size: 15px;
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: 'Inter';
     text-align: center;
     opacity: 40%;
 }
@@ -202,4 +203,10 @@ margin-right: 7vw;
 }
 #salvar{
     background: #123751;
+}
+#conj{
+    text-align: start;
+}
+#bar{
+    padding-bottom: 10px;
 }
