@@ -76,54 +76,7 @@ p{
     justify-content: flex-end;
     text-decoration: underline;
 }
-
-<<<<<<< Updated upstream
-.home {
-    display: flex;
-    flex-direction: row;
-}
-
-.sidebar {
-    position: fixed;
-    width: 19%;
-    height: 100vh;
-    font-size: 0.65em;
-    border-right: 20px solid #FD410C;
-}
-
-.navigation {
-    position: relative;
-    margin: 0 15%;
-    text-align: right;
-    top: 20%;
-    transform: translateY(-50%);
-    font-weight: bold;
-}
-
-nav {
-    text-align: left;
-}
-
-br {
-    color: #fff;
-    width: 100%;
-}
-
-.nav-logo {
-    height: 240px;
-    width: 180px;
-    transform: translateX(35%);
-}
-
-.content {
-    background-color: #fff;
-    position: relative;
-    width: 80%;
-    float: right;
-    height: 100vh;
-}
-=======
 input{
     padding-left: 10px;
 }
->>>>>>> Stashed changes
+
