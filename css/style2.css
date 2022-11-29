@@ -1,24 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     display: flex;
     width: 100%;
-    height: 100%  ;
+    height: 100%;
 }
-body{
+
+body {
     display: flex;
     width: 100%;
     height: 100%;
     font-family: 'Inter';
-    font-size: 1,7em;
+    font-size: 1, 7em;
     background-color: #F8F8F8;
     font-weight: bold;
 }
 
-menu{
+menu {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -31,20 +33,20 @@ menu{
     background-color: #114061;
 }
 
-menu > img {
+menu>img {
     max-width: 225px;
 }
 
-menu > opc1{
+menu>opc1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 80%;
     padding-right: 44px;
     padding-bottom: 10px;
-    }
+}
 
-menu > opc2{
+menu>opc2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -54,108 +56,158 @@ menu > opc2{
 
 }
 
-menu > opc1 > o1{
+menu>opc1>o1 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-menu > opc1 > o2{
+menu>opc1>o2 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-menu > opc1 > o3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
-menu > opc1 > o4{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-menu > opc1 > o5{
+menu>opc1>o3 {
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
 
-menu > opc1 > o6{
+menu>opc1>o4 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-menu > opc1 > o7{
+menu>opc1>o5 {
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
 
-menu > opc1 > o8{
+menu>opc1>o6 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-menu > opc2 > o9{
+menu>opc1>o7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+menu>opc1>o8 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-menu > opc2 > o10{
+menu>opc2>o9 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-menu > opc1 > o1> a{
+menu>opc2>o10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+menu>opc1>o1>a {
     padding-right: 10px;
 }
 
-menu > opc1 > o2> a{
+menu>opc1>o2>a {
     padding-right: 10px;
 }
 
-menu > opc1 > o3> a{
+menu>opc1>o3>a {
     padding-right: 10px;
 }
 
-menu > opc1 > o4> a{
+menu>opc1>o4>a {
     padding-right: 10px;
 }
 
-menu > opc1 > o5> a{
+menu>opc1>o5>a {
     padding-right: 10px;
 }
 
-menu > opc1 > o6> a{
+menu>opc1>o6>a {
     padding-right: 10px;
 }
 
-menu > opc1 > o7> a{
+menu>opc1>o7>a {
     padding-right: 10px;
 }
 
-menu > opc1 > o8> a{
+menu>opc1>o8>a {
     padding-right: 10px;
 }
 
-menu > opc2 > o9> a{
+menu>opc2>o9>a {
     padding-right: 10px;
 }
 
-menu > opc2 > o10> a{
+menu>opc2>o10>a {
     padding-right: 10px;
 }
-#bar{
+
+#bar {
     padding-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    font-size: 1em;
+    border-width: 1px;
+    border-style: solid;
+    justify-content: center;
+}
+
+#calendario {
+    display: flex;
+    width: 14%;
+    height: 20%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+#turma{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-style: solid;
+    border-radius: 2px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
+#conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    justify-content: center;
+}
+h1{
+    font-size: 30px;
 }
