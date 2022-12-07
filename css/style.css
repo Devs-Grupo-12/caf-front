@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Roboto';
-
+    margin: 0px;
 }
 #nome{
     position: relative;
@@ -42,8 +42,9 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 110%;
+    width: 100%;
 }
 
 p{
@@ -65,7 +66,8 @@ p{
 img{
     display: flex;
     height: 200px;
-    width: 1280px;
+    width: 100%;
+    padding-top: 2%;
 }
 #link{
     color:white;
