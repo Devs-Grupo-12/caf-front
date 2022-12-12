@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>Cadastro Aprendiz</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,124 +10,123 @@
     <link rel="stylesheet" type="text/css" href="..\css\cadastro.css" media="screen" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-        </style>
+    </style>
+    
 </head>
 
 <body>
     <menu>
-        <img src="..\Img\caf_logo-removebg-preview 1.png">
-        <opc1>
-            <o1 id="bar"><a href="inicio.html"><img src="..\img\Icone_home.png"></a>Início</o1>
-            <o2 id="bar"><a href="cadastro.html"><img src="..\img\Icone_pic.png"></a>Aprendizes</o2>
-            <o3 id="bar"><a href="consulta.html"><img src="..\img\Icone_folder.png"></a>Consultas</o3>
-            <o4 id="bar"><a href="#"><img src="..\img\Icone_planing.png"></a>Turmas</o4>
-            <o5 id="bar"><a href="#"><img src="..\img\Icone_log.png"></a>Ocorências</o5>
-            <o6 id="bar"><a href="#"><img src="..\img\Icone_ficher.png"></a>Atendimento</o6>
-            <o7 id="bar"><a href="#"><img src="..\img\Icone_book.png"></a>Solicitações</o7>
-            <o8 id="bar"><a href="#"><img src="..\img\Icone_balance.png"></a>Legislação</o8>
-        </opc1>
-        <hr width="100%" color="#525558" size="1px">
-        <opc2>
-            <o9><a href="#"><img src="..\img\Icone_config.png"></a>Conta</o9>
-            <o10><a href="#"><img src="..\img\Icone_onoff.png"></a>Sair</o10>
-        </opc2>
+        <figure><img src="..\Img\caf_logo-removebg-preview 1.png"></figure>
+        <ol class="first">
+            <li><i class="fa-fw fa-solid fa-house"></i><a href="inicio.html">Início</a></li>
+            <li><i class="fa-fw fa-solid fa-user"></i><a href="cadastro.html">Aprendizes</a></li>
+            <li><i class="fa-fw fa-solid fa-search"></i><a href="consulta.html">Consultas</a></li>
+            <li><i class="fa-fw fa-solid fa-clipboard"></i><a href="turmas.html">Turmas</a></li>
+            <li><i class="fa-fw fa-solid fa-file"></i><a href="ocorrencias.html">Ocorrências</a></li>
+            <li><i class="fa-fw fa-solid fa-image-portrait"></i><a href="atendimento.html">Atendimento</a></li>
+            <li><i class="fa-fw fa-solid fa-book-open"></i></i><a href="solicitacao.html">Solicitações</a></li>
+            <li><i class="fa-fw fa-solid fa-scale-balanced"></i><a href="legislacao.html">Legislação</a></li>
+        </ol>
+        <ol class="footer-menu">
+            <li><a href="#"><i class="fa-fw fa-solid fa-cog"></i> Conta</a></li>
+            <li><a href="#"><i class="fa-fw fa-solid fa-power-off"></i> Sair</a></li>
+        </ol>
     </menu>
-    <hr allign="Center" color="#FD410C" width="12px">
     <article id="conteudo">
         <h1>Cadastrar Aprendiz</h1>
         <article id="inputs">
-
-            <article id="conj">
-                <p>Nome Completo</p>
-                <input placeholder="Nome Completo" type="text" />
+            <article class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input placeholder="Nome Completo" type="text" id="nome" />
             </article>
 
-            <article id="conj">
-                <p>Data de Nascimento</p>
-                <input placeholder="Data Nascimento" type="text" />
+            <article class="form-group">
+                <label>Data de Nascimento</label>
+                <input placeholder="Data Nascimento" type="date" />
             </article>
 
-            <article id="conj">
-                <p>RG</p>
+            <article class="form-group">
+                <label>RG</label>
                 <input placeholder="RG" type="text" />
             </article>
 
-            <article id="conj">
-                <p>CPF</p>
+            <article class="form-group">
+                <label>CPF</label>
                 <input placeholder="CPF" type="text" />
             </article>
-
-            <article id="conj">
-                <p>Nome da Mãe</p>
+            <div class="clear"></div>
+            <article class="form-group">
+                <label>Nome da Mãe</label>
                 <input placeholder="Nome da Mãe" type="text" />
             </article>
 
-            <article id="conj">
-                <p>Data de Nascimento Mãe</p>
-                <input placeholder="Data de Nascimento Mãe" type="text" />
+            <article class="form-group">
+                <label>Data de Nascimento Mãe</label>
+                <input placeholder="Data de Nascimento Mãe" type="date" />
             </article>
 
-            <article id="conj">
-                <p>Rg Mãe</p>
+            <article class="form-group">
+                <label>Rg Mãe</label>
                 <input placeholder="Rg Mãe" type="text" />
             </article>
 
-            <article id="conj">
-                <p>Telefone</p>
-                <input placeholder="Telefone" type="text" />
+            <article class="form-group">
+                <label>Telefone</label>
+                <input placeholder="Telefone" type="tel" />
             </article>
-
-            <article id="conj">
-                <p>Nome do Pai</p>
+            <div class="clear"></div>
+            <article class="form-group">
+                <label>Nome do Pai</label>
                 <input placeholder="Nome do Pai" type="text" />
             </article>
 
-            <article id="conj">
-                <p>Data de Nascimento Pai</p>
-                <input placeholder="Data de Nascimento Pai" type="text" />
+            <article class="form-group">
+                <label>Data de Nascimento Pai</label>
+                <input placeholder="Data de Nascimento Pai" type="date" />
             </article>
 
-            <article id="conj">
-                <p>RG do Pai</p>
+            <article class="form-group">
+                <label>RG do Pai</label>
                 <input placeholder="RG do Pai" type="text" />
             </article>
 
-            <article id="conj">
-                <p>Telefone</p>
-                <input placeholder="Telefone" type="text" />
+            <article class="form-group">
+                <label>Telefone</label>
+                <input placeholder="Telefone" type="tel" />
             </article>
-
-            <article id="conj">
-                <p>Estado</p>
+            <div class="clear"></div>
+            <article class="form-group">
+                <label>Estado</label>
                 <input placeholder="Estado" type="text" />
             </article>
 
-            <article id="conj">
-                <p>Cidade</p>
+            <article class="form-group">
+                <label>Cidade</label>
                 <input placeholder="Cidade" type="text" />
             </article>
 
-            <article id="conj">
-                <p>Endereço</p>
+            <article class="form-group">
+                <label>Endereço</label>
                 <input placeholder="Endereço" type="text" />
             </article>
-
-            <article id="conj">
-                <p>E-mail</p>
-                <input placeholder="E-mail" type="text" />
+            <div class="clear"></div>
+            <article class="form-group">
+                <label>E-mail</label>
+                <input placeholder="E-mail" type="email" />
             </article>
 
-            <article id="conj">
-                <p>Grau de escolaridade</p>
+            <article class="form-group">
+                <label>Grau de escolaridade</label>
                 <input placeholder="Grau de escolaridade" type="text" />
             </article>
-
+            <div class="clear"></div>
+            <footer class="buttons">
+                <a href="inicio.html"><button id="cancelar" type="submit">Cancelar</button></a>
+                <a href="inicio.html"><button id="salvar" type="submit">Salvar</button></a>
+            </footer>
         </article>
-        <div id="botoes">
-            <a href="inicio.html"><button id="cancelar" type="submit">Cancelar</button></a>
-            <a href="inicio.html"><button id="salvar" type="submit">Salvar</button></a>
-        </div>
     </article>
+    <script src="https://kit.fontawesome.com/31271b7e65.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

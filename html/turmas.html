@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="..\css\cadastro.css" media="screen" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
+</head>
+
+<body>
+    <menu>
+        <figure><img src="..\Img\caf_logo-removebg-preview 1.png"></figure>
+        <ol class="first">
+            <li><i class="fa-fw fa-solid fa-house"></i><a href="inicio.html">Início</a></li>
+            <li><i class="fa-fw fa-solid fa-user"></i><a href="cadastro.html">Aprendizes</a></li>
+            <li><i class="fa-fw fa-solid fa-search"></i><a href="consulta.html">Consultas</a></li>
+            <li><i class="fa-fw fa-solid fa-clipboard"></i><a href="turmas.html">Turmas</a></li>
+            <li><i class="fa-fw fa-solid fa-file"></i><a href="ocorrencias.html">Ocorrências</a></li>
+            <li><i class="fa-fw fa-solid fa-image-portrait"></i><a href="atendimento.html">Atendimento</a></li>
+            <li><i class="fa-fw fa-solid fa-book-open"></i></i><a href="solicitacao.html">Solicitações</a></li>
+            <li><i class="fa-fw fa-solid fa-scale-balanced"></i><a href="legislacao.html">Legislação</a></li>
+        </ol>
+        <ol class="footer-menu">
+            <li><a href="#"><i class="fa-fw fa-solid fa-cog"></i> Conta</a></li>
+            <li><a href="#"><i class="fa-fw fa-solid fa-power-off"></i> Sair</a></li>
+        </ol>
+    </menu>
+    <article id="conteudo">
+        <h1>Cadastrar Turmas</h1>
+        <article id="inputs">
+            <article class="form-group">
+                <label for="aprendiz" class="box-label">Aprendiz</label>
+ 
+                    <select id="aprendiz">
+                        <option selected="selected">Procurar</option>
+                        <option>Adilson</option>
+                        <option>Henrique</option>
+                        <option>Rubens</option>
+                    </select>
+                    <a href="inicio.html"><button id="add" type="submit">Adicionar</button></a>
+
+            </article>
+            <div class="clear"></div>
+
+            <article class="form-group">
+                <label>Nome da Turma</label>
+                <input placeholder="Nome da Turma" type="text" />
+            </article>
+            <div class="clear"></div>
+            <ul>
+                <article class="dados">
+                    <li>1</li>
+                    <li>Adilson</li>
+                </article>
+                <article class="dados">
+                    <li>2</li>
+                    <li>Henrique</li>
+                </article>
+                <article class="dados">
+                    <li>3</li>
+                    <li>Rubens</li>
+                </article>
+                
+            </ul>
+            <footer class="buttons">
+                <a href="inicio.html"><button id="cancelar" type="submit">Cancelar</button></a>
+                <a href="inicio.html"><button id="salvar" type="submit">Salvar</button></a>
+            </footer>
+        </article>
+    </article>
+    <script src="https://kit.fontawesome.com/31271b7e65.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
