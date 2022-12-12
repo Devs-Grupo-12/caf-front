@@ -49,6 +49,7 @@ li{
     padding: 12px;
     height: 34px;
     line-height: 32px;
+    padding-left: 10%;
 }
 figure{
     display: flex;
@@ -59,13 +60,15 @@ img{
     width: 120px;
 }
 
-a, a:visited, a:active {
+a:visited, a:active {
     text-decoration: none;
     color: #fff;
 }
 
 li>a
 {
+    text-decoration: none;
+    color: #fff;
     padding-left: 12px;
     font-size: 18px;
     font-weight: normal;
@@ -196,6 +199,6 @@ article > li{
     display: block;
 }
 
-#aprendiz{
+#aprendiz,#turma,#data{
     display: inline;
 }
